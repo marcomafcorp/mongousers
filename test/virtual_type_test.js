@@ -6,6 +6,7 @@ describe('Virtual types', () => {
     const joe = new User({
       name: 'Joe',
       posts: [{ title: 'PostTitle' }]
+
     });
 
     joe.save()
